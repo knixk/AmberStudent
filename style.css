@@ -1,5 +1,6 @@
 .header {
-  background: rgba(0, 0, 0, 0.2) url("https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90");
+  background: rgba(0, 0, 0, 0.2)
+    url("https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90");
   text-align: center;
   object-fit: contain;
   background-blend-mode: darken;
@@ -9,8 +10,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-
 
 .nav ul {
   display: flex;
@@ -56,7 +55,6 @@
   background-blend-mode: darken;
 }
 
-
 .search {
   padding: 25px 15px;
   /* max-width: 1000px; */
@@ -69,7 +67,7 @@
 
 .search-btn {
   border-radius: 50%;
-  background-color: #EC3A57;
+  background-color: #ec3a57;
   color: white;
   height: 60px;
   width: 60px;
@@ -92,7 +90,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 
 .feature {
   max-width: 270px;
@@ -131,13 +128,25 @@
   padding: 5px 5px;
   color: white;
   font-weight: bold;
-   border: none;
+  border: none;
 }
 
 .popular-cities-grid {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, 200px);
-  justify-content: c  enter;
+  justify-content: c enter;
 }
 
+.properties-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: c enter;
+}
+
+.property-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
