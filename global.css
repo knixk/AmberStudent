@@ -10,8 +10,15 @@ body {
 }
 
 .container {
+  padding: 1rem 5rem;
+  /* margin: 1rem 3rem; */
+
+}
+
+.nav-container {
   padding: 1rem 2.5rem;
 }
+
 
 .cards {
   display: flex;

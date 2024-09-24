@@ -83,6 +83,7 @@
   display: flex;
   gap: 1rem;
   margin: 1rem 0;
+  /* justify-content: space-around; */
 }
 
 .features-container {
@@ -160,3 +161,63 @@
 .book-info-repeater {
   display: flex;
 }
+
+/* popular cities */
+.popular-cities-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.popular-cities-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  margin: 1rem 0;
+}
+
+.popular-cities-subtitle {
+  margin: 1rem 0;
+}
+
+.popular-cities {
+  background-color: #F9FBFA;
+}
+
+.properties-subtitle {
+  margin: 1rem 0;
+}
+
+.properties-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.properties-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  margin: 1rem 0;
+}
+
+.property {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* padding: 0 10px; */
+  width: 250px;
+  /* flex-wrap: wrap; */
+  /* border-radius: 20px; */
+  border: 1px solid gainsboro;
+  border-radius: 0 0 10px 10px;
+}
+
+.properties-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.property-img {
+  width: 100%;
+  /* display: inline-block; */
+  border-radius: 10px 10px 0 0;
+}
+
