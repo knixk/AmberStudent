@@ -281,3 +281,14 @@
   display: flex;
   gap: 10px;
 }
+
+.three-steps-repeater {
+  display: flex;
+  gap: 10px;
+  border: 1px solid gray;
+  justify-content: space-between;
+ }
+
+ .three-steps-container p {
+  margin: 1rem 0;
+ }
