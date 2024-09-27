@@ -271,3 +271,13 @@
   display: flex;
   gap: 10px;
 }
+
+
+.referral p {
+  margin: 1rem 0;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
