@@ -292,3 +292,25 @@
  .three-steps-container p {
   margin: 1rem 0;
  }
+
+ .steps-repeater {
+  display: flex;
+  gap: 10px;
+ }
+
+ .steps-repeater p {
+  margin: 1rem 0;
+ }
+
+ .city-link {
+  margin: 1rem 0;
+  color: var(--pink);
+  text-decoration: none;
+ }
+
+ .cities-list {
+  display: grid;
+  /* gap: 20px; */
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+ }
